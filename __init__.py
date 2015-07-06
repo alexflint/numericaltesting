@@ -1,1 +1,1 @@
-from .array_comparison import assert_arrays_equal, assert_arrays_almost_equal
+from .array_comparison import assert_arrays_equal, assert_arrays_almost_equal, assert_same_shape
