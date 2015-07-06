@@ -65,6 +65,8 @@ def assert_arrays_almost_equal(x, y, decimals=6, **kwargs):
     Check that x and y are identical.
     If they are not then print some helpful diagnostic information and raise an AssertionError.
     """
+    x = np.asarray(x)
+    y = np.asarray(y)
     assert_same_shape(x, y)
     tol = np.maximum(10**-decimals, np.abs(np.maximum(x, y) * 10**-decimals))
     errors = np.abs(x - y) > tol
