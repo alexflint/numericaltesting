@@ -2,7 +2,7 @@
 from distutils.core import setup
 
 setup(name='numericaltesting',
-      description='tools for unittesting with arrays and numerical algorithms',
+      description='Tools for unittesting with arrays and numerical algorithms',
       version='0.1',
       author='Alex Flint',
       author_email='alex.flint@gmail.com',
